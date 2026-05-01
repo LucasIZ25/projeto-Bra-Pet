@@ -1,0 +1,254 @@
+body{
+    background-color:#ffd050;
+    color: rgb(0, 0, 0);   
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+nav a{ text-decoration: none;
+color: black;}
+
+nav a:hover{
+    color: aliceblue;
+}
+
+nav{
+    background-color: rgb(206, 197, 114);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:15px;
+    border-radius: 10px;
+    height: 85px;
+    top: 0;
+    width: 98%;
+    border:#d1a427 solid 5px;
+
+  
+    
+}
+nav h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+ nav ul{
+    list-style:none;
+    display: flex;
+    gap: 20px;
+    text-decoration: none;
+    
+}
+nav li{
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    font-weight: 100;
+    letter-spacing: 1px;
+    letter-spacing: 4px;   
+    text-decoration: none;
+    color: black;
+ 
+}
+nav li:hover{
+    color:aliceblue
+
+}
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: 50px;
+    font-style:oblique;
+    align-items: center;
+    text-align: center;
+    height:  70px;
+    font-weight: bold;
+  
+
+}
+
+div{
+ background-color: rgb(206, 197, 114);;
+ font-size: 18px;
+ border-radius: 10px;
+ border:#d1a427 solid 5px;
+ display:flex ;
+ align-items: center;
+ justify-content: center;
+ text-align: justify;
+ gap: 40px;
+ padding: 40px;
+ transition: 0.3s;
+ 
+}
+div:hover{
+    transform: scale(1.1);
+}
+
+div p{
+    max-width: 500px;
+    line-height: 1.6;
+}
+
+div h3{
+    background-color: #daec86;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow:  0px 5px 15px rgba( (0,0,0,0.1), green, blue, alpha);
+    font-size: 26px;
+    font-weight: bold;
+    border-left:  5px solid #d1a427 ;
+    padding-left: 10px;
+}
+
+div img{
+    border:7px#d1a427 solid;
+    border-radius: 12px;
+    width: 250px;
+    box-shadow: 0px 6px 15px rgba (0,0,0,0.2);
+    transform:  scale(1.05);
+    transition: 0.3s;
+}
+
+main {
+ background-color: rgb(206, 197, 114);;
+ font-size: 18px;
+ border-radius: 10px;
+ border:#d1a427 solid 5px;
+ display:flex ;
+ align-items: center;
+ justify-content: center;
+ text-align: justify;
+ gap: 40px;
+ padding: 40px;
+ margin-top: 40px;
+ padding-top: 40px;
+  transition: 0.3s;
+}
+
+main:hover{
+    transform: scale(1.1);
+}
+main p{
+    
+    line-height: 1.6;
+}
+
+
+main h4{
+     background-color: #daec86;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow:  0px 5px 15px rgba( (0,0,0,0.1), green, blue, alpha);
+    font-size: 26px;
+    font-weight: bold;
+    border-left:  5px solid #d1a427 ;
+    padding-left: 10px;
+}
+
+main img{
+     border:7px#d1a427 solid;
+    border-radius: 12px;
+    width: 250px;
+    box-shadow: 0px 6px 15px rgba (0,0,0,0.2);
+    transform:  scale(1.05);
+    transition: 0.3s;
+}
+
+
+section{
+    background-color: rgb(206, 197, 114);;
+ font-size: 18px;
+ border-radius: 10px;
+ border:#d1a427 solid 5px;
+ display:flex ;
+ align-items: center;
+ justify-content: center;
+ text-align: justify;
+ gap: 40px;
+ padding: 40px;
+ margin-top: 40px;
+ padding-top: 40px;
+  transition: 0.3s;
+ 
+}
+
+section:hover{
+    transform: scale(1.1);
+}
+
+section p{
+      line-height: 1.6;
+}
+
+section u{
+    text-decoration: none;
+}
+
+section h5{
+     background-color: #daec86;
+     text-decoration: none;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow:  0px 5px 15px rgba( (0,0,0,0.1), green, blue, alpha);
+    font-size: 26px;
+    font-weight: bold;
+    border-left:  5px solid #d1a427 ;
+    padding-left: 10px;
+}
+
+section img{ 
+     border:7px#d1a427 solid;
+    border-radius: 12px;
+    width: 250px;
+    box-shadow: 0px 6px 15px rgba (0,0,0,0.2);
+    transform:  scale(1.05);
+    transition: 0.3s;
+}
+
+footer{
+    background-color: rgb(206, 197, 114);;
+ font-size: 18px;
+ border-radius: 10px;
+ border:#d1a427 solid 5px;
+ display:flex ;
+ align-items: center;
+ justify-content: center;
+ text-align: justify;
+ gap: 40px;
+ padding: 40px;
+ margin-top: 40px;
+ padding-top: 40px;
+  transition: 0.3s;
+  height: 1px;
+  width: 100%;
+}
+
+a{
+    color: black;
+    margin-top: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover{
+    color: beige;
+}
+
+
+
+.botao1 :hover{
+
+    background-color: aliceblue;
+}
+
+.botao2 :hover{
+     background-color: aliceblue;
+}
+
+.botao3 :hover{
+     background-color: aliceblue;
+}
+
+

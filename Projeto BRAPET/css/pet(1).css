@@ -1,0 +1,137 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffd050;
+    margin: 0;
+    padding: 0;
+}
+
+.botao{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.botao img{
+    width: 50px;
+    height: 50px;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 10px;
+}
+
+.container-pets{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 20px;
+}
+
+
+.pet{
+    width: 650px;
+    background-color: rgb(206, 197, 114);
+    border-radius: 10px;
+    border: #d1a427 solid 3px;
+    padding: 20px;
+}
+
+.pet img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.pet ul{
+    list-style: none;
+    padding: 0;
+    font-size: 20px;
+}
+
+.pet li{
+    margin: 10px 0;
+}
+
+.pet button{
+    padding: 12px 20px;
+    background-color: #d1a427;
+    align-items: center;
+    text-align: center;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.pet button:hover{
+    background-color: #007ea1;
+}
+
+
+.menu-lateral{
+    width: 260px;
+    max-height: 700px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+     text-decoration: none;
+}
+
+
+.second{
+    background-color: rgb(206, 197, 114);
+    border-radius: 10px;
+    border: #d1a427 solid 3px;
+    padding: 10px;
+    text-align: center;
+    transition: 0.3s;
+    cursor: pointer;
+     text-decoration: none;
+}
+
+.second:hover{
+    transform: scale(1.03);
+    background-color: #e6db8c;
+}
+
+.second img{
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.second button{
+    padding: 10px 15px;
+    background-color: #d1a427;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.second button:hover{
+    background-color: #007ea1;
+}
+footer{
+   background-color: rgb(206, 197, 114);;
+ font-size: 18px;
+ border-radius: 10px;
+ border:#d1a427 solid 5px;
+ display:flex ;
+ align-items: center;
+ justify-content: center;
+ text-align: justify;
+ gap: 40px;
+ padding: 40px;
+ margin-top: 40px;
+ padding-top: 40px;
+  transition: 0.3s;
+  height: 1px;
+}

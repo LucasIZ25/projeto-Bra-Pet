@@ -1,0 +1,203 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: #ffd050;;
+}
+
+.botão{
+    width: 0px;
+    height: 0px;
+    background-color: #ffd050;
+    border: none;
+    cursor: pointer;
+}
+
+.botão img{
+    width: 50px;
+    height: 50px;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size:50px;
+    text-align: center;
+    align-items: justify;
+    height:  70px;
+    font-weight: bold;
+  
+}
+
+.historia1
+{
+    background-color: rgb(206, 197, 114);;
+ font-size: 18px;
+ border-radius: 10px;
+ border:#d1a427 solid 5px;
+ display:flex ;
+ align-items: center;
+ justify-content: center;
+ text-align: justify;
+ gap: 40px;
+ padding: 40px;
+}
+
+.historia1 p{
+    max-width: 500px;
+    line-height: 1.6;
+}
+
+.historia1 u{
+     background-color: #daec86;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow:  0px 5px 15px rgba( (0,0,0,0.1), green, blue, alpha);
+    font-size: 26px;
+    font-weight: bold;
+    border-left:  5px solid #d1a427 ;
+    padding-left: 10px;
+}
+.historia1 img{
+    border:7px#d1a427 solid;
+    border-radius: 12px;
+    width: 350px;
+    box-shadow: 0px 6px 15px rgba (0,0,0,0.2);
+    transform:  scale(1.05);
+    transition: 0.3s;
+}
+
+.historia2{
+    background-color: rgb(206, 197, 114);;
+    font-size: 18px;
+    border-radius: 10px;
+    border:#d1a427 solid 5px;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    gap: 40px;
+    padding: 40px;
+    margin-top: 40px;
+    padding-top: 40px;
+   }
+   .historia2 p{
+    max-width: 500px;
+    line-height: 1.6;
+}
+.historia2 u{
+
+    background-color: #daec86;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow:  0px 5px 15px rgba( (0,0,0,0.1), green, blue, alpha);
+    font-size: 26px;
+    font-weight: bold;
+    border-left:  5px solid #d1a427 ;
+    padding-left: 10px;
+}
+.historia2 img {
+    border:7px#d1a427 solid;
+    border-radius: 12px;
+    width: 350px;
+    box-shadow: 0px 6px 15px rgba (0,0,0,0.2);
+    transform:  scale(1.05);
+    transition: 0.3s;
+}
+.historia3{
+    background-color: rgb(206, 197, 114);;
+    font-size: 18px;
+    border-radius: 10px;
+    border:#d1a427 solid 5px;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    gap: 40px;
+    padding: 40px;
+    margin-top: 40px;
+    padding-top: 40px;
+}
+
+.historia3 p{
+    max-width: 450px;
+    line-height: 1.6;
+}
+
+.historia3 u{
+     background-color: #daec86;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow:  0px 5px 15px rgba( (0,0,0,0.1), green, blue, alpha);
+    font-size: 26px;
+    font-weight: bold;
+    border-left:  5px solid #d1a427 ;
+    padding-left: 10px;
+}
+
+.historia3 img {
+    border:7px#d1a427 solid;
+    border-radius: 12px;
+    width: 400px;
+    box-shadow: 0px 6px 15px rgba (0,0,0,0.2);
+    transform:  scale(1.05);
+    transition: 0.3s;    
+}
+
+.historia4{
+    background-color: rgb(206, 197, 114);;
+    font-size: 18px;
+    border-radius: 10px;
+    border:#d1a427 solid 5px;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    gap: 40px;
+    padding: 40px;
+    margin-top: 40px;
+    padding-top: 40px;
+}
+.historia4 p {
+    max-width: 450px;
+    line-height: 1.6;
+}
+
+.historia4 u {
+    background-color: #daec86;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow:  0px 5px 15px rgba( (0,0,0,0.1), green, blue, alpha);
+    font-size: 26px;
+    font-weight: bold;
+    border-left:  5px solid #d1a427 ;
+    padding-left: 10px;
+}
+
+.historia4 img{
+    border:7px#d1a427 solid;
+    border-radius: 12px;
+    width: 400px;
+    box-shadow: 0px 6px 15px rgba (0,0,0,0.2);
+    transform:  scale(1.05);
+    transition: 0.3s;   
+}
+   
+
+
+
+footer{
+    background-color: rgb(206, 197, 114);;
+ font-size: 18px;
+ border-radius: 10px;
+ border:#d1a427 solid 5px;
+ display:flex ;
+ align-items: center;
+ justify-content: center;
+ text-align: justify;
+ gap: 40px;
+ padding: 40px;
+ margin-top: 40px;
+ padding-top: 40px;
+  transition: 0.3s;
+  height: 1px;
+}

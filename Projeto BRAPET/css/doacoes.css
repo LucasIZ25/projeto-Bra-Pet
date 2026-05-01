@@ -1,0 +1,144 @@
+body{
+    background-color:#ffd050;
+    color: rgb(0, 0, 0);   
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+nav a{ text-decoration: none;
+color: black;}
+
+nav a:hover{
+    color: aliceblue;
+}
+
+nav{
+    background-color: rgb(206, 197, 114);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:15px;
+    border-radius: 10px;
+    height: 80px;
+    top: 0;
+    width: 98%;
+    border:#d1a427 solid 5px;
+  
+    
+}
+nav h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+ nav ul{
+    list-style:none;
+    display: flex;
+    gap: 20px;
+    text-decoration: none;
+    
+}
+nav li{
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    font-weight: 100;
+    letter-spacing: 1px;
+    letter-spacing: 2px;   
+    text-decoration: none;
+    color: black;
+ 
+}
+nav li:hover{
+    color:aliceblue
+
+}
+
+h2{ font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: 50px;
+    font-style:oblique;
+    align-items: center;
+    text-align: center;
+    height:  70px;
+    font-weight: bold;}
+
+    li{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    align-items: justify;
+    text-align: justify;
+    font-style: italic;
+    }
+
+div{
+
+    background-color:rgb(206, 197, 114);
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    border: #d1a427 solid 7px;
+    display:flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 40px;
+}
+
+
+div img{
+    width: 550px;
+    border-radius: 10px;
+    border: #d1a427 solid 5px;
+    object-fit: cover;
+
+}
+
+div button{
+    align-items:first baseline;
+    text-align: center;
+ margin-top: 10px;
+    padding: 10px 20px;
+    width: 300px;
+    height: 100px;
+    background-color:#6f51f5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    border: white solid;
+}
+
+div a{
+    transition:(0.3s);
+ 
+}
+
+div a :hover{
+    background-color: aliceblue;
+    color: black;
+    transform: (1,1);
+    border: black solid;
+    border: none;
+}
+
+
+
+
+footer{
+    background-color: rgb(206, 197, 114);;
+ font-size: 18px;
+ border-radius: 10px;
+ border:#d1a427 solid 5px;
+ display:flex ;
+ align-items: center;
+ justify-content: center;
+ text-align: justify;
+ gap: 40px;
+ padding: 40px;
+ margin-top: 40px;
+ padding-top: 40px;
+  transition: 0.3s;
+  height: 1px;
+}

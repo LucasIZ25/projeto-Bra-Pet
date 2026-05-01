@@ -1,0 +1,124 @@
+body{
+    background-color:#ffd050;
+    color: rgb(0, 0, 0);   
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+nav a{ text-decoration: none;
+color: black;}
+
+nav a:hover{
+    color: aliceblue;
+}
+
+nav{
+    background-color: rgb(206, 197, 114);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:15px;
+    border-radius: 10px;
+    height: 80px;
+    top: 0;
+    width: 98%;
+    border:#d1a427 solid 5px;
+  
+    
+}
+nav h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+ nav ul{
+    list-style:none;
+    display: flex;
+    gap: 20px;
+    text-decoration: none;
+    
+}
+nav li{
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    font-weight: 100;
+    letter-spacing: 1px;
+    letter-spacing: 2px;   
+    text-decoration: none;
+    color: black;
+ 
+}
+nav li:hover{
+    color:aliceblue
+
+}
+
+h2{ font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: 50px;
+    font-style:oblique;
+    align-items: center;
+    text-align: center;
+    height:  70px;
+    font-weight: bold;}
+
+    p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    align-items: justify;
+    text-align: justify;
+    font-style: italic;
+    }
+
+    .clinicasProximas{
+    background-color:rgb(206, 197, 114);
+    border-radius: 10px;
+    border: #d1a427 solid 7px;
+    display:flex;
+    flex-direction: column;
+    }
+
+    .clinicasProximas input{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: medium;
+        width: 400px;
+        height: 20px;
+        border-radius: 10px;
+        border: #b99635 solid 2px;
+        background-color: aliceblue;
+    }
+    .clinicasProximas button{
+        width: 408px;
+        height: 40px;
+        border-radius: 10px ;
+        border: #b99635 solid 2px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: medium;
+        background-color: #dbcf25;
+        cursor: pointer;
+
+    }
+
+    button:hover{
+        background-color: rgb(255, 255, 255);
+     }
+
+
+    
+footer{
+    background-color: rgb(206, 197, 114);;
+ font-size: 18px;
+ border-radius: 10px;
+ border:#d1a427 solid 5px;
+ display:flex ;
+ align-items: center;
+ justify-content: center;
+ text-align: justify;
+ gap: 40px;
+ padding: 40px;
+ margin-top: 40px;
+ padding-top: 40px;
+  transition: 0.3s;
+  height: 1px;
+}
